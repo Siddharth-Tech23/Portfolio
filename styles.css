@@ -94,6 +94,10 @@ img {
   gap: 1.5rem;
 }
 
+.section {
+  padding-block: 6rem;
+}
+
 /*=============== STYLE SWITCHER ===============*/
 
 /*=============== HEADER & NAV ===============*/
@@ -259,7 +263,46 @@ img {
   background-color: var(--first-color);
   color: var(--white);
 }
+
 /*=============== ABOUT ===============*/
+.about__container {
+  grid-template-columns: 4fr 8fr;
+  align-items: center;
+}
+
+.about__img-wrapper {
+  position: relative;
+  height: 400px;
+
+}
+
+.about__img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  object-fit: cover;
+}
+
+.about__img:nth-child(1) {
+  clip-path: polygon(0 0, 0 32%, 28% 0);
+  transform: translateY(-1.25rem);
+}
+
+.about__img:nth-child(2) {
+  clip-path: polygon(28 0, 0 32%, 0 100%, 17% 100%, 90% 0);
+  transform: translateY(-0.75rem);
+}
+
+.about__img:nth-child(1) {
+  clip-path: polygon(0 0, 0 32%, 28% 0);
+  transform: translateY(-1.25rem);
+}
+
+.about__img:nth-child(1) {
+  clip-path: polygon(0 0, 0 32%, 28% 0);
+  transform: translateY(-1.25rem);
+}
 
 /* About img hover */
 
@@ -299,4 +342,3 @@ img {
 
 @media screen and (max-width: 450px) {
 }
-
