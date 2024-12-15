@@ -549,6 +549,26 @@ img {
 }
 
 /*=============== FOOTER ===============*/
+.footer {
+  background-color: var(--container-color);
+  padding-block: 3rem;
+}
+
+.footer__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__social-links {
+  display: flex;
+  column-gap: 1.25rem;
+}
+
+.footer__social-link {
+  color: var(--text-color);
+  font-size: var(--large-font-size);
+}
 
 /*=============== BREAKPOINTS ===============*/
 /* For large devices */
