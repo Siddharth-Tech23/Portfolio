@@ -428,32 +428,32 @@
             </div>
           </div>
 
-          <form action="" class="contact__form">
+          <form action="https://formspree.io/f/xblonnee" method="POST" class="contact__form">
             <div class="form__group">
               <div class="form__input">
-                <input type="text" placeholder="Name" class="input__control" />
+                <input type="text" name="name" placeholder="Name" class="input__control" required />
              </div>
 
              <div class="form__input">
-              <input type="email"
+              <input type="email" name="email"
                placeholder="Email"
-               class="input__control"
+               class="input__control" required
               />
              </div>
             </div>
 
             <div class="form__input">
-              <input type="text" placeholder="Subject" class="input__control" />
+              <input type="text" name="subject" placeholder="Subject" class="input__control" required />
            </div>
 
            <div class="form__input">
                 <textarea
-                 name=""
+                 name="message"
                  id=""
                  placeholder="Message"
                  cols="30"
                  rows="10"
-                 class="input__control textarea"
+                 class="input__control textarea" required
                 ></textarea>
              </div>
 
