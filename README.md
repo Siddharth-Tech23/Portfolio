@@ -1,18 +1,14 @@
-# Portfolio 
+# 💼 Personal Portfolio Website
 
 Hi! I'm Siddharth Agarwal a passionate Front-End Developer dedicated to crafting beautiful, intuitive, and responsive web experiences.
               With expertise in modern web technologies like HTML, CSS, JavaScript, and frameworks like React, 
               I thrive on turning creative ideas into functional digital solutions.
 
-# 💼 Personal Portfolio Website
-
-A clean, modern, and responsive **personal portfolio website** built using **HTML, CSS, and JavaScript** — showcasing my skills, projects, and contact details.
-
 ---
 
 ## 🚀 Live Demo
 
-👉 [View Portfolio Here](https://your-vercel-deployment-link.vercel.app)
+👉 [View Portfolio Here](https://portfolio-h3sm.vercel.app/)
 
 ---
 
@@ -36,10 +32,4 @@ A clean, modern, and responsive **personal portfolio website** built using **HTM
 - **Vercel (Deployment)**
 
 ---
-
-## 📸 Screenshots
-
-*(Add screenshots of your portfolio's different sections by uploading images in the repo and linking them here)*
-
-Example:
 
